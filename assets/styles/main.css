@@ -332,12 +332,12 @@ footer {
 
     .subtitle {
         margin: 1rem 0;
-        font-size: 1.25rem
+        font-size: 1.125rem;
     }
 
     .icon__ifba {
         width: 100%;
-        margin-top: 2rem;
+        
     }
     
     .icon__ifba > a > img {
@@ -364,17 +364,18 @@ footer {
 
     .subtitle {
         margin: 1rem 0;
-        font-size: 1.25rem
+        font-size: 1.125rem;
     }
 
     .icon__ifba {
         width: 100%;
-        margin-top: 2rem;
+        
     }
     
     .icon__ifba > a > img {
         width: 175px;
         height: 175px;
+
     }
 }
 
