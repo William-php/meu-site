@@ -157,14 +157,17 @@ main {
     flex-direction: column;
     border-radius: 0.825rem;
     
-    box-shadow: 1px 1px 3px #5237EF;
+    
     padding: 1rem 1.5rem 2rem;
     margin-bottom: 1.125rem;
     width: 500px;
     min-width: 300px;
-        /* gap: 1.5rem; */
+    transition: 800ms ease-in-out;
 }
 
+.card:hover {
+    box-shadow: 1px 1px 3px #5237EF;
+}
 
 
 .card i, h2 {
@@ -222,9 +225,14 @@ main {
     justify-content: flex-start;
 
     border-radius: 0.825rem;
-    box-shadow: 1px 1px 3px #fff;
+    
     width: 300px;
     gap: 1rem;
+    transition: 500ms ease-in-out;
+}
+
+.mini__card:hover {
+    box-shadow: 1px 1px 3px #fff;
 }
 
 .mini__card-img {
