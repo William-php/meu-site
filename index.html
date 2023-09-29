@@ -12,31 +12,52 @@
         <i class="fa fa-bars" id="burger" aria-hidden="true" onclick="tradeIcon(this)"></i>
         <menu id="menu__custom">
             <ul class="list__menu">
+                <hr>
                 <li>
-                    <a href="#">
+                    <a href="#home">
                         Home
                     </a>
                 </li>
+                <hr>
                 <li>
-                    <a href="#">
-                        Contatos
+                    <a href="#quemsou">
+                        Quem Sou?
                     </a>
                 </li>
+                <hr>
                 <li>
-                    <a href="#">
+                    <a href="#skills">
+                        Skills
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#projects">
+                        Projetos
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#social">
                         Redes Sociais
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="assets/files/william_dos_santos.pdf" download>
+                        Download CV
                     </a>
                 </li>
             </ul>
         </menu>
     </header>
     <main>
-        <section class="first__section">
+        <section class="first__section" id="home">
             <div class="text__and__photo">
                 <h1>Desenvolvedor Fullstck & Estudante de Ciências da Computação</h1>
-                <div class="subtitle">
+                <!-- <div class="subtitle">
                     <span>Eu codifico e realizo sonhos com meu computador</span>
-                </div>
+                </div> -->
                 <img src="assets/imgs/perfil_linkedin.png" alt="">
             </div>
             <div class="net__img">
@@ -44,14 +65,20 @@
             </div>
         </section>
 
-        <section class="second__section">
+        <section class="second__section" id="quemsou">
             <h2>Olá, eu sou Will. Bem vindo ao meu Portfólio</h2>
             <div class="subtitle">
-                <p>Me chamo William e tenho paixão por Computação. Com um pouco mais de 2 de experiência em desenvolvimento e pesquisa, tenho trabalhado incansavelmente para alcançar resultados excepcionais em gerenciamento de projetos, desenvolvimento de software, desenvolvimento frontend utilizando o angular e arquitetura MVC , desenvolvimento backend utilizando Java, Springboot e microsserviços e com gerenciamento e desenvolvimento de banco de dados tanto com postgreeSQL quanto MySQL</p>
+                <p>Me chamo William e tenho paixão por Computação. Sou Aluno do Instituto Federal de Educação Ciência e Tecnologia do Estado da Bahia - Campus Camaçari. Com um pouco mais de 2 de experiência em desenvolvimento e pesquisa, tenho trabalhado incansavelmente para alcançar resultados excepcionais em gerenciamento de projetos, desenvolvimento de software, desenvolvimento frontend utilizando o angular e arquitetura MVC , desenvolvimento backend utilizando Java, Springboot e microsserviços e com gerenciamento e desenvolvimento de banco de dados tanto com postgreeSQL quanto MySQL</p>
+            </div>
+
+            <div class="icon__ifba">
+                <a href="https://portal.ifba.edu.br/camacari" target="_blank">
+                    <img src="./assets/imgs/IFBA_MARCA_vertical-01.png" alt="Instituto Federal de Educação Ciências e Tecnologia do Estado da Bahia">
+                </a>
             </div>
         </section>
 
-        <section class="third__section">
+        <section class="third__section" id="skills">
             <h2>Skills</h2>
             <div class="container__third__section">
 
@@ -62,23 +89,23 @@
 
                     <ul class="languages">
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-javascript-48.png" alt="">
+                            <img src="assets/imgs/icons8-javascript-48.png" alt="Ícone Javascript">
                             <span>Javascript</span>
                         </li>
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-typescript-48.png" alt="">
+                            <img src="assets/imgs/icons8-typescript-48.png" alt="Ícone Typescript">
                             <span>Typescript</span>
                         </li>
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-angularjs-48.png" alt="">
+                            <img src="assets/imgs/icons8-angularjs-48.png" alt="Ícone Angular">
                             <span>Angular</span>
                         </li>
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-html5-48.png" alt="">
+                            <img src="assets/imgs/icons8-html5-48.png" alt="Ícone HTML5">
                             <span>HTML5</span>
                         </li>
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-css-48.png" alt="">
+                            <img src="assets/imgs/icons8-css-48.png" alt="Ícone CSS3">
                             <span>CSS3</span>
                         </li>
                     </ul>
@@ -91,23 +118,23 @@
                     <h3>Linguagens</h3>
                     <ul class="languages">
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-logo-java-coffee-cup-48.png" alt="">
+                            <img src="assets/imgs/icons8-logo-java-coffee-cup-48.png" alt="Ícone Java">
                             <span>Java</span>
                         </li>
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-sql-48.png" alt="">
+                            <img src="assets/imgs/icons8-sql-48.png" alt="Ícone SQL">
                             <span>SQL</span>
                         </li>
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-mysql-48.png" alt="">
+                            <img src="assets/imgs/icons8-mysql-48.png" alt="Ícone MySQL">
                             <span>MySQL</span>
                         </li>
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-postgreesql-48.png" alt="">
+                            <img src="assets/imgs/icons8-postgreesql-48.png" alt="Ícone Postgreesql">
                             <span>Postgreesql</span>
                         </li>
                         <li class="language__icon">
-                            <img src="assets/imgs/icons8-c-48.png" alt="">
+                            <img src="assets/imgs/icons8-c-48.png" alt="Ícone C Linguagem de programação">
                             <span>C</span>
                         </li>
                     </ul>
@@ -115,7 +142,7 @@
             </div>
         </section>
 
-        <section class="fourth__section">
+        <section class="fourth__section" id="projects">
             <h2>Projetos</h2>
             <div class="container__fourth__section">
                 <div class="mini__card">
@@ -158,7 +185,7 @@
             
         </section>
     </main>
-    <footer>
+    <footer id="social">
         <div class="container">
             <div class="footer__text">
                 &copy; Devs By Will
