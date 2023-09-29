@@ -329,6 +329,21 @@ footer {
         flex-direction: column;
         gap: 3rem;
     }
+
+    .subtitle {
+        margin: 1rem 0;
+        font-size: 1.25rem
+    }
+
+    .icon__ifba {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    .icon__ifba > a > img {
+        width: 175px;
+        height: 175px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -345,6 +360,21 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 3rem;
+    }
+
+    .subtitle {
+        margin: 1rem 0;
+        font-size: 1.25rem
+    }
+
+    .icon__ifba {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    .icon__ifba > a > img {
+        width: 175px;
+        height: 175px;
     }
 }
 
