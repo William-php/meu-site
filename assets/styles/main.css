@@ -97,6 +97,7 @@ main {
 }
 
 .text__and__photo img {
+    object-fit: cover;
     width: 13rem;
     height: 13rem;
     border-radius: 50%;
@@ -298,6 +299,7 @@ main {
 
 .mini__card-img {
     width: 100%;
+    object-fit: cover;
     
 }
 
@@ -356,12 +358,13 @@ footer {
 .icon__link {
     text-decoration: none;
     transition: 200ms;
-    color: #fff
+    color: #fff;
+    font-size: 32px
 }
 
 .icon__link:hover {
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 36px
 }
 
 @media (max-width: 320px) {
