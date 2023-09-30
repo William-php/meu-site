@@ -13,3 +13,17 @@ function tradeIcon(element) {
         menu.style.display = 'none';
     }
 }
+
+const photo = document.getElementById("myPhoto");
+let rotacao = 0;
+
+function rotate(hover) {
+    rotacao += hover;
+    photo.style.transform = `rotate(${rotacao}turn)`;
+    console.log("testando")
+    // rotate(0.01);
+}
+
+
+
+
