@@ -227,9 +227,7 @@ main {
     transition: 800ms ease-in-out;
 }
 
-.card:hover {
-    box-shadow: 1px 1px 3px #5237EF;
-}
+
 
 
 .card i, h2 {
@@ -292,7 +290,9 @@ main {
     width: 300px;
     gap: 1rem;
     transition: 500ms ease-in-out;
-    color: #fff
+    color: #fff;
+    height: 400px;
+    max-height: 400px;
 }
 
 .mini__card:hover {
@@ -302,6 +302,7 @@ main {
 .mini__card-img {
     width: 100%;
     object-fit: cover;
+    margin-top: 10px;
     
 }
 
@@ -311,6 +312,7 @@ main {
     height: 162px;
     min-height: 162px;;
     border-radius: 0.825rem 0.825rem 0 0;
+    object-fit: contain
 }
 
 .mini__card-title {
